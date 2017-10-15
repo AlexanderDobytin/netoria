@@ -1,0 +1,21 @@
+.b-header{
+	&__wrapper{background: url(../images/header-bg.png) repeat-x 50%;}
+	&-top{
+		
+		@include flex-between;
+	}
+}
+.b-header-contact{
+	&__button{
+		font-size: 10px;
+		font-weight: 400;
+		line-height: 18.2px;
+		text-transform: uppercase;
+		padding: 9px 15px; 
+		background-color: #ecdb00;
+		display: block;
+	}
+}
+.b-navbar{
+	&{@include flex-between;}
+}

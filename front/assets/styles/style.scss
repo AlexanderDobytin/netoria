@@ -1,0 +1,8 @@
+$text-color : #000000;
+$main-font: "Arial - Bold MT";
+
+.container{
+    max-width:758px;
+}
+@import 'mixins.scss';
+@import 'header/header.scss';
